@@ -72,7 +72,7 @@ the-invisible-risk/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-org/the-invisible-risk.git
+git clone https://github.com/avishkajindal05/the-invisible-risk.git
 cd the-invisible-risk
 
 # 2. Create virtual environment
