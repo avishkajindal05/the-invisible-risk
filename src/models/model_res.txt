@@ -1,0 +1,33 @@
+Training LightGBM model on train fold...
+Training until validation scores don't improve for 50 rounds
+[50]    valid_0's auc: 0.778567
+[100]   valid_0's auc: 0.784875
+[150]   valid_0's auc: 0.785746
+Early stopping, best iteration is:
+[137]   valid_0's auc: 0.785866
+
+Predicting on test set...
+
+--- EVALUATION METRICS ---
+ROC-AUC Score: 0.78587
+
+Finding optimal threshold based on F1-Score...
+Optimal Threshold: 0.65
+Accuracy:  0.84703
+Precision: 0.26069
+Recall:    0.48741
+F1-Score:  0.33970
+
+Confusion Matrix:
+[[49675  6863]
+ [ 2545  2420]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.88      0.91     56538
+           1       0.26      0.49      0.34      4965
+
+    accuracy                           0.85     61503
+   macro avg       0.61      0.68      0.63     61503
+weighted avg       0.90      0.85      0.87     61503
