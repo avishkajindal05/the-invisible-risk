@@ -1,0 +1,40 @@
+logistic regression
+
+threshold    0.570000
+precision    0.201987
+recall       0.610272
+f1           0.303516
+Name: 57, dtype: float64
+Final Threshold: 0.5700000000000001
+[[44567 11971]
+ [ 1935  3030]]
+              precision    recall  f1-score   support
+
+           0       0.96      0.79      0.87     56538
+           1       0.20      0.61      0.30      4965
+
+    accuracy                           0.77     61503
+   macro avg       0.58      0.70      0.58     61503
+weighted avg       0.90      0.77      0.82     61503
+
+ROC-AUC: 0.7708161310431643
+
+
+decision tree:
+
+Confusion Matrix:
+ [[43529 13009]
+ [ 1952  3013]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.96      0.77      0.85     56538
+           1       0.19      0.61      0.29      4965
+
+    accuracy                           0.76     61503
+   macro avg       0.57      0.69      0.57     61503
+weighted avg       0.89      0.76      0.81     61503
+
+
+ROC-AUC: 0.7577559026240387
